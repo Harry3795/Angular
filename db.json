@@ -1,0 +1,80 @@
+{
+  "login": [
+    {
+      "email": "pradeep@gmail.com",
+      "password": "pradeep@3456",
+      "id": 1
+    },
+    {
+      "email": "prabhudas@gmail.com",
+      "password": "niyam@3456",
+      "id": 2
+    },
+    {
+      "email": "prabhudas@gmail.com",
+      "password": "niyam@3456",
+      "id": 3
+    }
+  ],
+  "signup": [
+    {
+      "fname": "prameshwar",
+      "lname": "sharma ",
+      "email": "nirankaribabap@gmail.com",
+      "password": "kalori@3456",
+      "id": 1
+    },
+    {
+      "fname": "narayan",
+      "lname": "sharma ",
+      "email": "prabhudas@gmail.com",
+      "password": "niyam@3456",
+      "id": 2
+    },
+    {
+      "data": {
+        "fname": "Rakesh ",
+        "lname": "Yadav",
+        "email": "rakeshyadav@gmail.com",
+        "password": "Rakasheh@3789"
+      },
+      "id": 3
+    },
+    {
+      "data": {
+        "fname": "Rakesh mishra",
+        "lname": "Yadav",
+        "email": "rakeshyadav@gmail.com",
+        "password": "Rakasheh@3789"
+      },
+      "id": 4
+    },
+    {
+      "data": {
+        "fname": "miraj",
+        "lname": "mahali",
+        "email": "miraj@gmail.com",
+        "password": "edfghjk"
+      },
+      "id": 5
+    },
+    {
+      "data": {
+        "fname": "brush",
+        "lname": "lee",
+        "email": "brushlee@gmail.com",
+        "password": "jkhsdh"
+      },
+      "id": 6
+    },
+    {
+      "data": {
+        "fname": "ritussjk",
+        "lname": "kumar1",
+        "email": "rak@gmail.com",
+        "password": "asghsfkj"
+      },
+      "id": 7
+    }
+  ]
+}

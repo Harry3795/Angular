@@ -1,0 +1,65 @@
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+      aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="commerce">Commerce</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="painting">Painting</a>
+        </li>
+
+
+      </ul>
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+          <li class="nav-item">
+            <a class="nav-link disabled"><mat-icon aria-hidden="false" aria-label="Example home icon"
+                fontIcon="shopping_cart" aria-hidden="true">(0)</mat-icon></a>
+          </li>
+        </ul>
+        <!-- <li ngbDropdown class="nav-item dropdown">
+          <a ngbDropdownToggle class="nav-link " href="#" role="button" aria-expanded="true" tabindex="0" data-bs-toggle="dropdown " aria-haspopup="true" aria-hidden="true">
+            <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="person"></mat-icon>
+          </a>
+          <ul ngbDropdownMenu class="dropdown-menu" >
+            <li><a ngbDropdownItem class="dropdown-item" href="#">Profile</a></li>
+            <li><a ngbDropdownItem class="dropdown-item" href="#">About</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a ngbDropdownItem class="dropdown-item" href="#">Log Out</a></li>
+          </ul>
+
+        </li> -->
+      </form>
+      <mat-icon mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu"
+        style="color: rgb(1, 14, 27); font: 250px;" aria-hidden="true">person</mat-icon>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>
+          <!-- <mat-icon>person</mat-icon> -->
+          <span routerLink="signup">signup</span>
+        </button>
+        <button mat-menu-item>
+          <!-- <mat-icon>person</mat-icon> -->
+          <span routerLink="login">Login</span>
+        </button>
+        <button mat-menu-item>
+          <!-- <mat-icon>logout </mat-icon> -->
+          <span routerLink="" >Logout</span>
+        </button>
+      </mat-menu>
+    </div>
+  </div>
+
+
+</nav>
